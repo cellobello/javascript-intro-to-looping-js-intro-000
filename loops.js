@@ -22,6 +22,6 @@ function maybeTrue() {
 
 function doWhileLoop(array) {
   do {
-    array.delete
-  }
+    array.delete();
+  } while array.length > 0 && maybeTrue();
 }
